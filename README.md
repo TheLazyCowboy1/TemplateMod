@@ -30,7 +30,10 @@ The originally-intended use-case was for syncing my config options. All clients 
 ## Rain Meadow Data
 
 ### EasyResourceState and EasyEntityState
-Makes attaching data to resources and entities as easy as possible. See StaticVarSyncData as an example.
+Makes attaching data to resources and entities as easy as possible.
+See [StaticVarSyncData](EasyModSetup/MeadowCompat/StaticVarSyncData.cs) as an example for EasyResourceState,
+and [PlayerInfoSyncState](https://github.com/TheLazyCowboy1/MetroidvaniaMode/blob/Dragons/PlayerInfoSyncState.cs) (external link) as an example for EasyEntityState.
+
 
 If the AttachTo method returns true, then the data will automatically be added to the resource/entity when it is created (or roughly around that time).
 
@@ -44,3 +47,11 @@ Profit?
 For soft-compatibility, it is *easiest* (not always necessary) to keep all files that include "using RainMeadow;" separate from everything else.
 This file is where I actually reference Rain Meadow, and the functions here are only to be called by MeadowExt, which first checks whether Meadow is enabled.
 There may be better ways to implement soft-compatibility, but I found this the most reliable and straightforward.
+
+
+
+### Miscellaneous other features
+
+### SimpleSaveData
+A tool I made for organizing save data. You'll have to change the PREFIX constant if you use it.
+I'm just including it in this repo so that I don't forget about it in the future.
