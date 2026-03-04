@@ -1,0 +1,12 @@
+{
+    "id": "LazyCowboy.TemplateMod",
+    "name": "TemplateMod Name",
+    "version": "0.0.1",
+    "target_game_version": "v1.11",
+    "authors": "TheLazyCowboy1",
+    "description": "Put worthy description here duh",
+    "requirements": [ "moreslugcats" ],
+    "requirements_names": [ "More Slugcats Expansion" ],
+    "tags": [ "Game Modes", "Downpour" ],
+    "checksum_override_version": false
+}
