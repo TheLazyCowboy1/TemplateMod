@@ -3,6 +3,9 @@
 Intended for my own use, but hopefully the EasyModSetup folder contains classes that might be extremely helpful to others as well!
 This is especially designed to make soft-compatibility with Rain Meadow painless.
 
+Since this was designed for my own use, please feel free to ask me for help if you decide to try to use this yourself.
+Create an issue on this repo or message me on Discord or something idk.
+
 ### SimplerPlugin
 Makes setting up a plugin require a few less lines of code, and it provides a handy debug log method that was inspired by Rain Meadow's debug log.
 The logger includes the time, the file, and the line that produced the log.
